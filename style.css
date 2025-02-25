@@ -1,0 +1,179 @@
+/* Background */
+body {
+    background-image: url('background.png'); 
+    background-size: cover;
+}
+
+@keyframes sparkle {
+    0% { opacity: 0; transform: scale(0.5) rotate(0deg); }
+    50% { opacity: 1; transform: scale(1.2) rotate(45deg); }
+    100% { opacity: 0; transform: scale(0.5) rotate(90deg); }
+}
+#name {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-size: 100px;
+    color: rgb(155, 6, 6); /* Inner text color */
+    text-align: center;
+    margin-top: 5%;
+    -webkit-text-stroke: 2px black; /* Black border */
+
+    text-shadow: 
+    4px 4px 0 rgba(0, 0, 0, 0.537),  /* Main dark shadow */
+    2px 2px 5px rgba(0, 0, 0, 0.5); /* Soft blur shadow */
+}
+
+
+#playbutton {
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    background-color: darkred; /* Button background */
+    color: white; /* Text color */
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 45px; /* Adjust padding for a box look */
+    border-radius: 8px; /* Rounded corners */
+    border: 3px solid black; /* Button border */
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0 black; /* Shadow effect for depth */
+    transition: all 0.2s ease-in-out;
+}
+
+#playbutton a {
+    color: white;
+    text-decoration: none; 
+    display: block;
+}
+
+/* Hover Effect */
+#playbutton:hover {
+    background-color: red; /* Slightly lighter red on hover */
+    transform: translateY(-3px); /* Lift effect */
+    box-shadow: 6px 6px 0 black;
+}
+
+/* Active (Click) Effect */
+#playbutton:active {
+    transform: translateY(2px); /* Pressed down effect */
+    box-shadow: 2px 2px 0 black;
+}
+
+
+#rulesbutton {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    background-color: darkred; /* Button background */
+    color: white; /* Text color */
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 45px; /* Adjust padding for a box look */
+    border-radius: 8px; /* Rounded corners */
+    border: 3px solid black; /* Button border */
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0 black; /* Shadow effect for depth */
+    transition: all 0.2s ease-in-out;
+}
+
+#rulesbutton a {
+    color: white;
+    text-decoration: none; 
+    display: block;
+}
+
+/* Hover Effect */
+#rulesbutton:hover {
+    background-color: red; /* Slightly lighter red on hover */
+    transform: translateY(-3px); /* Lift effect */
+    box-shadow: 6px 6px 0 black;
+}
+
+/* Active (Click) Effect */
+#rulesbutton:active {
+    transform: translateY(2px); /* Pressed down effect */
+    box-shadow: 2px 2px 0 black;
+}
+
+
+#settingsbutton {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background-color: darkred; /* Button background */
+    color: white; /* Text color */
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 45px; /* Adjust padding for a box look */
+    border-radius: 8px; /* Rounded corners */
+    border: 3px solid black; /* Button border */
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0 black; /* Shadow effect for depth */
+    transition: all 0.2s ease-in-out;
+}
+
+#settingsbutton a {
+    color: white;
+    text-decoration: none; 
+    display: block;
+}
+
+/* Hover Effect */
+#settingsbutton:hover {
+    background-color: red; /* Slightly lighter red on hover */
+    transform: translateY(-3px); /* Lift effect */
+    box-shadow: 6px 6px 0 black;
+}
+
+/* Active (Click) Effect */
+#settingsbutton:active {
+    transform: translateY(2px); /* Pressed down effect */
+    box-shadow: 2px 2px 0 black;
+}
+
+#gif2 {
+    position: absolute;
+    top: 15px;
+    left: 290px;
+    transform: rotate(-40deg); /* Adjust the degree value to tilt the element */
+    width: 300px;
+    height: auto;
+}
+
+
+/* rules page things */
+#name2 {
+    font-size: 70px;
+    color: rgb(241, 234, 234); /* Inner text color */
+    text-align: center;
+    margin-top: 5%;
+    -webkit-text-stroke: 2px black; /* Black border */
+
+    text-shadow: 
+    4px 4px 0 rgba(0, 0, 0, 0.537),  /* Main dark shadow */
+    2px 2px 5px rgba(0, 0, 0, 0.5); /* Soft blur shadow */
+}
+
+#boxes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+#gif1 {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
