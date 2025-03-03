@@ -177,3 +177,268 @@ body {
     bottom: 10px;
     right: 20px;
 }
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Settings Dropdowns */
+.settingsHeader {
+    color: white;
+    /* Sets font color to white*/
+}
+
+.settings-container label {
+    color: white;
+    /* Sets font color to white*/
+    font-size: 22px;
+    /* Sets the font size of the labels */
+    display: block;
+    /* Ensures labels appear on a new line */
+    margin-top: 15px;
+    /* Adds space above each label */
+}
+
+.settings-container select {
+    width: 60%;
+    /* Sets the dropdown width to 60% of the parent container */
+    padding: 10px;
+    /* Adds padding inside the dropdown for better spacing */
+    font-size: 18px;
+    /* Increases font size for readability */
+    border-radius: 5px;
+    /* Rounds the corners of the dropdown */
+    border: 2px solid darkred;
+    /* Adds a dark red border */
+    background-color: black;
+    /* Sets background to black */
+    color: white;
+    /* Sets text color to white */
+}
+
+/* ************************** Leaderboard Table ************************** */
+.leaderboard-table {
+    width: 80%;
+    /* Sets table width to 80% of the page */
+    margin: 20px auto;
+    /* Centers the table with automatic margins */
+    border-collapse: collapse;
+    /* Removes gaps between table cells */
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+    border: 2px solid white;
+    /* Adds a white border around cells */
+    padding: 15px;
+    /* Adds padding inside each cell */
+    font-size: 20px;
+    /* Sets font size for table text */
+}
+
+.leaderboard-table th {
+    background-color: darkred;
+    /* Sets a dark red background for table headers */
+    color: white;
+    /* Sets text color to white */
+}
+
+.leaderboard-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Gives even rows a slightly lighter background */
+}
+
+/* Back Button */
+.back-button {
+    display: inline-block;
+    /* Makes the button an inline block element */
+    margin-top: 20px;
+    /* Adds space above the button */
+    padding: 15px 30px;
+    /* Adds padding to increase button size */
+    background-color: darkred;
+    /* Sets the background color */
+    color: white;
+    /* Sets text color to white */
+    text-decoration: none;
+    /* Removes default underline on links */
+    font-size: 22px;
+    /* Increases font size for better readability */
+    font-weight: bold;
+    /* Makes text bold */
+    border-radius: 8px;
+    /* Rounds button corners */
+    border: 3px solid black;
+    /* Adds a black border */
+    text-transform: uppercase;
+    /* Converts text to uppercase */
+    box-shadow: 4px 4px 0 black;
+    /* Creates a shadow effect */
+    transition: all 0.2s ease-in-out;
+    /* Adds a smooth transition effect */
+}
+
+.back-button:hover {
+    background-color: red;
+    /* Changes background color on hover */
+    transform: translateY(-3px);
+    /* Lifts the button slightly when hovered */
+    box-shadow: 6px 6px 0 black;
+    /* Enhances shadow effect on hover */
+}
+
+.back-button:active {
+    transform: translateY(2px);
+    /* Moves the button down when clicked */
+    box-shadow: 2px 2px 0 black;
+    /* Reduces shadow effect when clicked */
+}
+
+/************************Leaderboard style*****************************/
+/* Leaderboard Page Styling */
+#leaderboardbutton {
+    position: absolute;
+    /* Positions the button relative to the page */
+    top: 20px;
+    /* Places the button near the top */
+    right: 20px;
+    /* Aligns the button to the right */
+    background-color: darkred;
+    /* Sets background color */
+    color: white;
+    /* Sets text color */
+    font-size: 30px;
+    /* Increases font size */
+    font-weight: bold;
+    /* Makes text bold */
+    text-align: center;
+    /* Centers text inside the button */
+    padding: 20px 45px;
+    /* Adjusts padding for a boxy look */
+    border-radius: 8px;
+    /* Rounds button corners */
+    border: 3px solid black;
+    /* Adds a black border */
+    text-transform: uppercase;
+    /* Converts text to uppercase */
+    box-shadow: 4px 4px 0 black;
+    /* Adds a shadow effect */
+    transition: all 0.2s ease-in-out;
+    /* Smooth transition effect */
+}
+
+#leaderboardbutton a {
+    color: white;
+    /* Sets link text color to white */
+    text-decoration: none;
+    /* Removes default underline */
+    display: block;
+    /* Makes the link fill the entire button */
+}
+
+#leaderboard-title {
+    font-size: 70px;
+    /* Increases font size */
+    color: rgb(241, 234, 234);
+    /* Sets text color */
+    text-align: center;
+    /* Centers text */
+    margin-top: 5%;
+    /* Adds space above the title */
+    -webkit-text-stroke: 2px black;
+    /* Adds a black outline */
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.537), 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /* Adds text shadow */
+}
+
+/* Leaderboard Table */
+.leaderboard-table {
+    width: 60%;
+    /* Centers table and adjusts width */
+    margin: 20px auto;
+    border-collapse: collapse;
+    /* Removes gaps between borders */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Dark semi-transparent background */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    /* Shadow effect for depth */
+}
+
+/* Table Headers */
+.leaderboard-table th {
+    background-color: darkred;
+    /* Dark red background */
+    color: white;
+    /* White text */
+    font-size: 24px;
+    /* Sets font size */
+    padding: 15px;
+    /* Adds padding */
+    border: 2px solid black;
+    /* Adds a black border */
+    text-transform: uppercase;
+    /* Converts text to uppercase */
+}
+
+/* Table Data Cells */
+.leaderboard-table td {
+    font-size: 20px;
+    /* Sets font size */
+    padding: 12px;
+    /* Adds padding */
+    text-align: center;
+    /* Centers text */
+    border: 2px solid white;
+    /* White borders for contrast */
+    color: white;
+    /* Sets text color */
+}
+
+/* Alternating Row Colors */
+.leaderboard-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Light background for even rows */
+}
+
+/* Back Button Styling */
+#leaderboard-back-button {
+    display: inline-block;
+    /* Makes the button behave like a block */
+    margin-top: 20px;
+    /* Adds space above the button */
+    padding: 15px 30px;
+    /* Adds padding */
+    background-color: darkred;
+    /* Sets background color */
+    color: white;
+    /* Sets text color */
+    text-decoration: none;
+    /* Removes default underline */
+    font-size: 22px;
+    /* Increases font size */
+    font-weight: bold;
+    /* Makes text bold */
+    border-radius: 8px;
+    /* Rounds button corners */
+    border: 3px solid black;
+    /* Adds a black border */
+    text-transform: uppercase;
+    /* Converts text to uppercase */
+    box-shadow: 4px 4px 0 black;
+    /* Adds a shadow effect */
+    transition: all 0.2s ease-in-out;
+    /* Smooth transition effect */
+}
+
+#leaderboard-back-button:hover {
+    background-color: red;
+    /* Changes background color on hover */
+    transform: translateY(-3px);
+    /* Lifts button when hovered */
+    box-shadow: 6px 6px 0 black;
+    /* Enhances shadow effect on hover */
+}
+
+#leaderboard-back-button:active {
+    transform: translateY(2px);
+    /* Moves button down when clicked */
+    box-shadow: 2px 2px 0 black;
+    /* Reduces shadow effect when clicked */
+}
