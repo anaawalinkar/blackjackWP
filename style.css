@@ -488,7 +488,7 @@ body {
 
 #cardongame {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 30%;
     transform: translate(-50%, -50%) rotate(-20deg);
     width: 300px;
@@ -500,7 +500,7 @@ body {
 
 #cardongame2 {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 70%;
     transform: translate(-50%, -50%) rotate(20deg);
     width: 300px;
@@ -509,3 +509,36 @@ body {
     color: white;
     z-index: 1;
 }
+
+
+.circle1, .circle2 {
+    width: 90px;
+    height: 90px;
+    background-color: #333;
+    border-radius: 50%;
+    border: 3px solid rgb(238, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  .circle1 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+  }
+  
+  .circle2 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+  }
+  
+  h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30;
+  }
