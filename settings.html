@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Blackjack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Displays a large heading titled "Settings" -->
+    <h1 class="settingsHeader">Settings</h1>
+
+    <!-- A container div that groups all the setting options together -->
+    <div class="settings-container">
+        <!-- Creates a label for the sound settings dropdown -->
+        <label for="sound">Sound:</label>
+        <!-- A dropdown (select) element for enabling or disabling sound -->
+        <select id="sound">
+            <!-- First option: turns the sound on -->
+            <option value="on">On</option>
+            <!-- Second option: turns the sound off -->
+            <option value="off">Off</option>
+        </select>
+
+        <!-- Creates a label for the difficulty settings dropdown -->
+        <label for="difficulty">Difficulty:</label>
+        <!-- A dropdown (select) element for selecting game difficulty -->
+        <select id="difficulty">
+            <!-- Easy difficulty level -->
+            <option value="easy">Easy</option>
+            <!-- Medium difficulty level -->
+            <option value="medium">Medium</option>
+            <!-- Hard difficulty level -->
+            <option value="hard">Hard</option>
+        </select>
+
+        <!-- Creates a label for the theme settings dropdown -->
+        <label for="theme">Theme:</label>
+        <!-- A dropdown (select) element for choosing the game theme -->
+        <select id="theme">
+            <!-- Default classic theme option -->
+            <option value="classic">Classic</option>
+            <!-- Dark mode theme option -->
+            <option value="dark">Dark Mode</option>
+            <!-- Light mode theme option -->
+            <option value="light">Light Mode</option>
+        </select>
+    </div>
+
+    <!-- A clickable button (styled as a button) that navigates back to the home page -->
+    <a href="index.html" class="back-button">Back to Home</a>
+
+    <!--Copied from Spotify's website to add music-->
+    <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/5vncTjqqr6aSnuzKczDMHW?utm_source=generator" width="100%" height="352"
+        frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</body>
+
+</html>
