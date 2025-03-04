@@ -486,12 +486,24 @@ body {
     z-index: 1;
 }
 
-#cardsgame {
+#cardongame {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50px;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%) rotate(-20deg);
+    width: 300px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    z-index: 1;
+}
+
+#cardongame2 {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%) rotate(20deg);
+    width: 300px;
     text-align: center;
     font-size: 70px;
     color: white;
