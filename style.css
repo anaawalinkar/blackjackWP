@@ -145,12 +145,11 @@ body {
 }
 
 
-/* rules page things */
+/* rules/settings page things */
 #name2 {
     font-size: 70px;
     color: rgb(241, 234, 234); /* Inner text color */
     text-align: center;
-    margin-top: 5%;
     -webkit-text-stroke: 2px black; /* Black border */
 
     text-shadow: 
